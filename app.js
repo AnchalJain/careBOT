@@ -22,7 +22,7 @@ var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
 
 //=========================================================
-// Bots Dialogs
+// Bots Dialogs hello world
 //=========================================================
 
 bot.dialog('/', function (session) {
